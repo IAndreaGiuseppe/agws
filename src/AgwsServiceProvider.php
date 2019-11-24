@@ -23,6 +23,7 @@ class AgwsServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->registerRoutes();
+        $this->registerResources();
     }
 
     /**
@@ -33,5 +34,15 @@ class AgwsServiceProvider extends ServiceProvider
     protected function registerRoutes()
     {
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+    }
+
+    /**
+     * Register the package resources
+     * 
+     * @return void
+     */
+    protected function registerResources()
+    {
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'agws');
     }
 }
