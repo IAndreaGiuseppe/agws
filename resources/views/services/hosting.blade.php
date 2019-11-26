@@ -4,7 +4,7 @@
     <div class="mb-4">
         <p class="mb-2 font-medium text-xl">{{ __( "Il dominio" ) }}</p>
         <p class="font-thin text-sm">{{ __( "Tutto ciò di cui hai bisogno parte dal nome del tuo dominio" ) }}</p>
-        <p class="mb-4">{{ __( "Valutiamo insieme le caratteristiche fondamentali del tuo progetto, verifichiamo la disponibilità in rete e ti forniamo una lista di domini tra cui scegliere."" ) }}</p>
+        <p class="mb-4">{{ __( "Valutiamo insieme le caratteristiche fondamentali del tuo progetto, verifichiamo la disponibilità in rete e ti forniamo una lista di domini tra cui scegliere." ) }}</p>
         <p class="p-2 italic">{{ __( "Per tutti i domini già registrati il traferimento verso i nostri piani di hosting è gratuito." ) }}</p>
     </div>
 

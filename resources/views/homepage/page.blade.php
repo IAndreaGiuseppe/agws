@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('agws::layout')
 
 @section('body')
     @include('agws::homepage.menu')
