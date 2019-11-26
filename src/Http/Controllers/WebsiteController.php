@@ -10,4 +10,9 @@ class WebsiteController extends Controller
     {
         return view('agws::wrapper', ['page' => 'agws::homepage.page']);
     }
+
+    public function services()
+    {
+        return view('agws::wrapper', ['page' => 'agws::services.page']);
+    }
 }
