@@ -10,7 +10,7 @@
 
     <div class="mb-4">
         <p class="mb-2 font-medium text-xl">{{ __( "La metodologia" ) }}</p>
-        <p class="font-thin text-sm">{{ __( "Per ottenere buoni risultati è necessario avere un buon metodo di lavoro."" ) }}</p>
+        <p class="font-thin text-sm">{{ __( "Per ottenere buoni risultati è necessario avere un buon metodo di lavoro." ) }}</p>
         <p>{{ __( "Lo sviluppo di applicazioni negli ultimi dieci anni ha visto l'affermarsi di varie metodologie (Waterfall Model, Spiral Model) di lavoro sempre più raffinate e rispondenti alle esigenze del cliente (Scrum, Agile) in modo da colmare il grande divario che esisteva tra cliente e programmatore. In base al tipo di progetto da sviluppare ogni metodologia presenta, chiaramente, sia dei punti di forza che di debolezza." ) }}</p>
         <p class="mb-4">{{ __( "Ho sviluppato, nel corso degli anni, una metodologia di tipo incrementale in grado di dare al cliente la soddisfazione di crescere e veder crescere il proprio progetto senza togliere il piacere di utilizzare il prodotto già dalle prime fasi di sviluppo." ) }}</p>
         <p class="p-2 italic">{{ __( "Tutto questo diventa un sistema di analisi Agile accompagnato da uno sviluppo in miglioramento progressivo (Progressive Enhancement) che permette la produzione di Deliveries frequenti in grado di coinvolgere il cliente durante le fasi più critiche di lavorazione." ) }}</p>
