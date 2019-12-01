@@ -8,7 +8,9 @@
         <meta name="csrf-token" content="{{ csrf_token() }}" />
 
         <!-- Stylesheets -->
-        @stack('stylesheets')
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
+
+        @stack( 'stylesheets' )
 
         <title>{{ config('app.name') }}{{ isset($title) ? " | {$title}" : '' }}</title>
     </head>
