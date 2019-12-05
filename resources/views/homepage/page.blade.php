@@ -5,4 +5,6 @@
 
     @include('agws::homepage.content')
 
+    @include('agws::homepage.skills')
+
 @endsection
