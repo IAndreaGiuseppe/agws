@@ -1,4 +1,4 @@
-<div id="skills" class="px-6 py-16 bg-black text-white">
+<div id="skills" class="hidden mt-16 px-6 py-16 bg-black text-white">
     <div class="container mx-auto">
     <div>
         <p class="mb-6 font-medium text-lg">{{ __( "Linguaggi" ) }}</p>
