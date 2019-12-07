@@ -10,7 +10,10 @@
         <!-- Stylesheets -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
 
-        @stack( 'stylesheets' )
+        @stack('stylesheets')
+
+        <!-- javascript -->
+        <script src="{{asset(mix('toggler.js', 'vendor/agws'))}}" defer></script>
 
         <title>{{ config('app.name') }}{{ isset($title) ? " | {$title}" : '' }}</title>
     </head>
