@@ -13,7 +13,7 @@
         @stack('stylesheets')
 
         <!-- javascript -->
-        <script src="{{asset(mix('toggler.js', 'vendor/agws'))}}" defer></script>
+        @stack('scripts')
 
         <title>{{ config('app.name') }}{{ isset($title) ? " | {$title}" : '' }}</title>
     </head>

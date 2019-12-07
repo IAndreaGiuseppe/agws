@@ -8,3 +8,7 @@
     @include('agws::homepage.skills')
 
 @endsection
+
+@push('scripts')
+        <script src="{{ asset(mix('toggler.js', 'vendor/agws')) }}" defer></script>
+@endpush
