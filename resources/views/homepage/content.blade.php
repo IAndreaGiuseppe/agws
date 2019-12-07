@@ -34,9 +34,8 @@
         <p class="py-2 font-thin text-xl txt-dark-container text-agp-dark">{{ __( "Interstellar Full-Stack Web Developer" ) }}</p>
 
     </div>
+</div>
 
-    <div class="py-4 flex justify-between">
-        <button id="skills-toggle" class="">Skills</button>
-    </div>
-
+<div class="py-4 flex justify-center">
+    <button id="skills-toggle" class="">Skills</button>
 </div>
