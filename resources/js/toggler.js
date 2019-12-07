@@ -21,11 +21,15 @@
             if (checkParent(target, button)) {
                 if (content.classList.contains("hidden")) {
                     content.classList.remove("hidden");
+                    content.scrollIntoView({"behavior": 'smooth'});
                 } else {
                     content.classList.add("hidden");
                 }
             } else {
-                content.classList.add("hidden");
+                document.body.scrollIntoView({ "behavior": 'smooth' });
+                setTimeout(() => {
+                    content.classList.add("hidden");
+                }, 500);
             }
         }
     }
