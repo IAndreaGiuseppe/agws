@@ -24,6 +24,7 @@ class AgwsServiceProvider extends ServiceProvider
     {
         $this->registerRoutes();
         $this->registerResources();
+        $this->defineAssetPublishing();
     }
 
     /**
@@ -44,5 +45,17 @@ class AgwsServiceProvider extends ServiceProvider
     protected function registerResources()
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'agws');
+    }
+
+    /**
+     * Define the asset publishing configuration.
+     *
+     * @return void
+     */
+    public function defineAssetPublishing()
+    {
+        $this->publishes([
+            __DIR__.'/../resources/js' => public_path('vendor/agws'),
+        ], 'agws-assets');
     }
 }
