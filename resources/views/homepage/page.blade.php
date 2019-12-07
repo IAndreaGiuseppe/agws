@@ -10,5 +10,5 @@
 @endsection
 
 @push('scripts')
-        <script src="{{ asset(mix('toggler.js', 'vendor/agws')) }}" defer></script>
+        <script src="{{ asset('vendor/agws/toggler.js') }}" defer></script>
 @endpush
