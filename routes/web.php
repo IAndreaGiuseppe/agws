@@ -8,4 +8,6 @@ Route::group([
     'namespace' => 'Iag\Agws\Http\Controllers',
     'as' => 'website.',
 ], function () {
+    Route::get('/', 'WebsiteController@homepage')->name('homepage');
+    Route::get('/services', 'WebsiteController@services')->name('services');
 });

@@ -11,5 +11,16 @@ class WebsiteControllerTest extends IntegrationTestCase
         $response = $this->get(route('website.homepage'));
 
         $response->assertOk();
+        $response->assertViewIs('agws::wrapper');
+        $response->assertViewHas('page', 'agws::homepage.page');
+    }
+
+    public function test_ServicesRoute()
+    {
+        $response = $this->get(route('website.services'));
+
+        $response->assertOk();
+        $response->assertViewIs('agws::wrapper');
+        $response->assertViewHas('page', 'agws::services.page');
     }
 }
