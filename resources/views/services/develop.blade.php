@@ -22,10 +22,4 @@
         <p class="mb-4">{{ __( "Ho sviluppato un framework proprietario modulare per la gestione della logica comune delle tue applicazioni basato sul famoso framework di ultima generazione Laravel." ) }}</p>
         <p class="p-2 italic">{{ __( "Lavoro quotidianamente per rafforzare le logiche di gestione ed aumentare la potenza della struttura, con lo scopo di fornirti un prodotto versatile, facile da utilizzare e sicuro." ) }}</p>
     </div>
-
-    <div class="p-8 bg-agp-yellow">
-        <p class="mb-2 font-medium text-xl">{{ __( "Il prodotto" ) }}</p>
-        <p class="font-thin text-sm">{{ __( "Un risultato di alta qualità" ) }}</p>
-        <p>{{ __( "In una sinfonia di note ho racchiuso elementi di alta qualità basati su standard di programmazione internazionali e una metodologia capace di evolvere assieme alle esigenze del cliente." ) }}</p>
-    </div>
 </div>

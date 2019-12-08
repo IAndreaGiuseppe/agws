@@ -2,9 +2,11 @@
     <p class="mb-4 px-8 font-semibold text-2xl">{{ __( "Servizi" ) }}</p>
 
     <div>
-        @include('agws::services.hosting')
+        @include('agws::services.product')
 
         @include('agws::services.develop')
+
+        @include('agws::services.hosting')
 
         @include('agws::services.consult')
 
