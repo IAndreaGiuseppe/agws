@@ -11,6 +11,6 @@ abstract class IntegrationTestCase extends OrchestraTestCase
 
     protected function getPackageProviders($app)
     {
-        return [ 'Iag\Agws\AgwsServiceProvider' ];
+        return ['Iag\Agws\AgwsServiceProvider'];
     }
 }
