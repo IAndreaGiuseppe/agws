@@ -1,4 +1,4 @@
-<div class="mt-16 sm:mt-20 sm:flex">
+<div class="mt-8 sm:mt-16 sm:flex">
     <div class="relative w-full p-6">
         <div class="planet mars"></div>
     </div>
@@ -32,7 +32,7 @@
         </p>
 
         <p class="py-2 font-thin text-xl txt-dark-container text-agp-dark">{{ __( "Interstellar Full-Stack Web Developer" ) }}</p>
-
+        <p class="py-2 font-thin text-md txt-dark-container text-agp-dark">{{ __( "info{at}andreagiuseppe.com" ) }}</p>
     </div>
 </div>
 
