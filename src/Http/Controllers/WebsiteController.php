@@ -13,6 +13,7 @@ class WebsiteController extends Controller
 
     public function services()
     {
-        return view('agws::services.page');
+        return view('agws::services.page')
+            ->with('title', 'Services');
     }
 }
