@@ -14,5 +14,7 @@
 @endpush
 
 @push('metadata')
-    @include('metadata::metadata')
+    @include('metadata::metadata', [
+        'description' => "Aws, Javascript, Laravel, Tailwind, Composer. I'm the interstellar full-stack web developer. Consultant, teacher and cat lover."
+    ])
 @endpush
