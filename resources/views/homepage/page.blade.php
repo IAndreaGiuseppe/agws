@@ -12,3 +12,7 @@
 @push('scripts')
     <script src="{{ asset('vendor/agws/toggler.js') }}" defer></script>
 @endpush
+
+@push('metadata')
+    @include('metadata::metadata')
+@endpush
