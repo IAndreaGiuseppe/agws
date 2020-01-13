@@ -9,6 +9,7 @@
 
 @push('metadata')
     @include('metadata::metadata', [
-        'description' => 'I servizi di consulenza, hosting e sviluppo che offro per le aziende.'
+        'title' => 'Andrea Giuseppe | Servizi di consulenza e sviluppo web-oriented',
+        'description' => 'I servizi di consulenza, hosting e sviluppo applicazioni in Laravel che offro per le aziende del nord italia.',
     ])
 @endpush
