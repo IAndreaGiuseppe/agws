@@ -9,7 +9,7 @@
 
     @include('agws::cv.jobs')
 
-    @include('agws::cd.consult')
+    @include('agws::cv.consult')
 
 @endsection
 
