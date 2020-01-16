@@ -16,4 +16,10 @@ class WebsiteController extends Controller
         return view('agws::services.page')
             ->with('title', 'Services');
     }
+
+    public function cv()
+    {
+        return view('agws::cv.page')
+            ->with('title', 'Curriculum Vitae');
+    }
 }

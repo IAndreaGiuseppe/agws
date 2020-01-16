@@ -22,4 +22,12 @@ class WebsiteControllerTest extends IntegrationTestCase
         $response->assertViewIs('agws::services.page');
         $response->assertViewHas('title');
     }
+
+    public function test_CvRoute()
+    {
+        $response = $this->get(route('website.cv'));
+
+        $response->assertOk();
+        $response->assertViewIs('agws::cv.page');
+    }
 }
