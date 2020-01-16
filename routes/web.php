@@ -10,4 +10,5 @@ Route::group([
 ], function () {
     Route::get('/', 'WebsiteController@homepage')->name('homepage');
     Route::get('/services', 'WebsiteController@services')->name('services');
+    Route::get('/cv', 'WebsiteController@cv')->name('cv');
 });
