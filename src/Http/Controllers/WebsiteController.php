@@ -8,18 +8,24 @@ class WebsiteController extends Controller
 {
     public function homepage()
     {
-        return view('agws::homepage.page');
+        return view('agws::homepage.index');
     }
 
     public function services()
     {
-        return view('agws::services.page')
+        return view('agws::services.index')
             ->with('title', 'Services');
     }
 
     public function cv()
     {
-        return view('agws::cv.page')
+        return view('agws::cv.index')
             ->with('title', 'Curriculum Vitae');
+    }
+
+    public function courses()
+    {
+        return view('agws::courses.index')
+            ->with('title', 'I corsi online');
     }
 }

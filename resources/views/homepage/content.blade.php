@@ -1,14 +1,17 @@
 <div class="mt-8 sm:mt-16 sm:flex sm:items-center">
     <div class="relative w-full p-6">
-        <div class="planet mars"></div>
-
         <div>
-            <a href="{{ route('courses.laravel') }}">
-                <div class="p-4 text-right bg-agp-yellow">
-                    <p class="text-xl lg:text-2xl xl:text-xl leading-tight">{{ __( "Il Corso Laravel" ) }} &#128640;</p>
-                    <p class="text-3xl lg:text-4xl xl:text-3xl leading-tight font-bold">{{ __( "A journey to reusable packages" ) }}</p>
-                </div>
-            </a>
+            <div class="p-4 text-right bg-agp-yellow">
+                <p class="text-xl lg:text-2xl xl:text-xl leading-tight">
+                    <a href="{{ route('website.services') }}">
+                        {{ __( "I Corsi Online" ) }} &#128640;
+                    </a>
+                </p>
+                <p class="text-3xl lg:text-4xl xl:text-3xl leading-tight font-bold">
+                    <span class="font-thin text-xl">{{ __( "Laravel:" ) }}</span>
+                    __( "A journey to reusable packages" ) }}
+                </p>
+            </div>
         </div>
     </div>
 

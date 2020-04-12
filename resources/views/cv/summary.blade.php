@@ -13,11 +13,11 @@
             <p class="mb-2 font-medium text-xl">{{ __( "I miei strumenti di lavoro" ) }}</p>
             <ul>
                 <li class="mb-2">- Infrastruttura <strong>AWS</strong></li>
-                <li class="mb-2">- Framework back-end <strong>Laravel 6.*</strong> con sviluppo moduli isolati</li>
+                <li class="mb-2">- Framework back-end <strong>Laravel 7.*</strong> con sviluppo moduli isolati</li>
                 <li class="mb-2">- Front-end <strong>Html5</strong> + <strong>Scss</strong>, <strong>Tailwindcss</strong> + <strong>VueJS</strong></li>
                 <li class="mb-2">- Elementi grafici in Illustrator in formato .svg, .png, .jpeg</li>
                 <li class="mb-2">- Versioning tramite <strong>GIT</strong> + <strong>Github</strong></li>
-                <li class="mb-2">Inoltre: <u>cli</u>, <u>bash</u>, <u>composer</u>, <u>npm</u>, <u>vscode</u>, <u>workbench</u></li>
+                <li class="mb-2">Inoltre: <u>cli</u>, <u>bash</u>, <u>composer</u>, <u>npm</u>, <u>vscode</u>, <u>workbench</u> e molto altro..</li>
             </ul>
         </div>
     </div>

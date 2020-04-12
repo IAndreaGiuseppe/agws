@@ -16,6 +16,6 @@
 @push('metadata')
     @include('metadata::metadata', [
         'title' => 'Andrea Giuseppe | Curriculum Vitae',
-        'description' => 'Il curriculum vitae aggiornato dello sviluppatore web Andrea Giuseppe.',
+        'description' => 'Il curriculum vitae aggiornato dello sviluppatore web Andrea Giuseppe Pretto.',
     ])
 @endpush

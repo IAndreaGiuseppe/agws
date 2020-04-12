@@ -4,7 +4,7 @@
 
         <div>
             <p class="mb-2 font-medium text-xl">{{ __( "Linguaggi" ) }}</p>
-            <p class="p-2 italic">{{ __( "Html5, Css3, PHP, Javascript (ECMA 2016), MySql, UML" ) }}</p>
+            <p class="p-2 italic">{{ __( "Html5, Css3, PHP, Javascript (ECMA 2019), Sql, UML" ) }}</p>
 
             <p class="mb-2 font-medium text-xl">{{ __( "Frameworks" ) }}</p>
             <p class="p-2 italic">{{ __( "Symfony, Laravel, VueJS, Jquery, Tailwind, Bootstrap" ) }}</p>

@@ -3,6 +3,7 @@
 
     <div>
         <p class="mb-2 font-medium text-xl">{{ __( "Chiedimi un consiglio" ) }}</p>
+        <p class="font-thin text-sm">{{ __( "Possiamo organizzare assieme un corso mirato per il tuo team di sviluppo" ) }}</p>
         <p class="font-thin text-sm">{{ __( "Riorganizza le idee" ) }}</p>
 
         <p class="py-2">

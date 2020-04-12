@@ -11,7 +11,7 @@ class WebsiteControllerTest extends IntegrationTestCase
         $response = $this->get(route('website.homepage'));
 
         $response->assertOk();
-        $response->assertViewIs('agws::homepage.page');
+        $response->assertViewIs('agws::homepage.index');
     }
 
     public function test_ServicesRoute()
@@ -19,7 +19,7 @@ class WebsiteControllerTest extends IntegrationTestCase
         $response = $this->get(route('website.services'));
 
         $response->assertOk();
-        $response->assertViewIs('agws::services.page');
+        $response->assertViewIs('agws::services.index');
         $response->assertViewHas('title');
     }
 
@@ -28,6 +28,6 @@ class WebsiteControllerTest extends IntegrationTestCase
         $response = $this->get(route('website.cv'));
 
         $response->assertOk();
-        $response->assertViewIs('agws::cv.page');
+        $response->assertViewIs('agws::cv.index');
     }
 }

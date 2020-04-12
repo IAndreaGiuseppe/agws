@@ -14,8 +14,6 @@
         }
     ],
     "require": {
-        "iag/courses": "dev-master",
-        "iag/metadata": "dev-master",
         "illuminate/routing": "^7.0",
         "illuminate/support": "^7.0",
         "php": "^7.2.0"
@@ -24,16 +22,6 @@
         "orchestra/testbench": "^5.0",
         "phpunit/phpunit": "^8.0"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "/var/www/vhosts/iag/agcourses"
-        },
-        {
-            "type": "path",
-            "url": "/var/www/vhosts/iag/metadata"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Iag\\Agws\\": "src/"
