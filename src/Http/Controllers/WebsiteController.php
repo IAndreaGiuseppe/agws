@@ -22,10 +22,4 @@ class WebsiteController extends Controller
         return view('agws::cv.index')
             ->with('title', 'Curriculum Vitae');
     }
-
-    public function courses()
-    {
-        return view('agws::courses.index')
-            ->with('title', 'I corsi online');
-    }
 }
