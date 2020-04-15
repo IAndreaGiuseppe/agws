@@ -1,5 +1,5 @@
 <div class="py-16 px-8">
-    <p class="mb-2 font-medium text-xl uppercase">{{ __( "Sviluppo" ) }}</p>
+    <p class="mb-2 font-medium text-xl uppercase">{{ __( "Sviluppo" ) }} &#128190;</p>
 
     <div class="mb-4">
         <p class="mb-2 font-medium text-xl">{{ __( "Gli standard" ) }}</p>

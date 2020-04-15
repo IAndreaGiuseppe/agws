@@ -5,6 +5,7 @@
         <div class="py-16 px-8">
             <p class="mb-2 font-medium text-xl">{{ __( "I corsi online" ) }}</p>
             <p class="font-thin text-sm">{{ __( "Accessibili a chiunque" ) }}</p>
+            <p>{{ __( "Coming soon." ) }}</p>
         </div>
 
         <div class="py-16 px-8 bg-agp-yellow">
@@ -24,12 +25,12 @@
             <div class="relative text-center my-16 lg:-mx-4">
                 <figure class="max-w-3xl font-display">
                     <blockquote class="text-black relative text-2xl mx-auto italic mb-4">
-                        <p>{{ __( "Testimonial" ) }}</p>
-                        <p class="text-xs font-thin">{{ __( "Company" ) }}</p>
+                        <p>{{ __( "" ) }}</p>
+                        <p class="text-xs font-thin">{{ __( "Net-Evolution" ) }}</p>
                     </blockquote>
                     <figcaption class="flex items-center justify-center">
                         <img class="rounded-full block h-8 w-8 mr-4" src="" alt="">
-                        <a href="" class="no-underline text-indigo-dark hover:text-indigo uppercase tracking-wide font-bold text-base">{{ __( "Name" ) }}</a>
+                        <a href="https://www.net-evolution.com" class="no-underline text-indigo-dark hover:text-indigo uppercase tracking-wide font-bold text-base">{{ __( "Cristiano Cattaneo" ) }}</a>
                     </figcaption>
                 </figure>
             </div>

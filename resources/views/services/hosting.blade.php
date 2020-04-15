@@ -1,5 +1,5 @@
 <div class="py-16 px-8">
-    <p class="mb-2 font-medium text-xl uppercase">{{ __( "Hosting" ) }}</p>
+    <p class="mb-2 font-medium text-xl uppercase">{{ __( "Hosting" ) }} &#128225;</p>
 
     <div class="mb-4">
         <p class="mb-2 font-medium text-xl">{{ __( "Il dominio" ) }}</p>
