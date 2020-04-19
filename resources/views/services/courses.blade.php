@@ -19,7 +19,7 @@
                 <p class="mb-2 font-medium text-xl">{{ __( "Un percorso a misura del tuo organico" ) }}</p>
                 <p class="font-thin text-sm">{{ __( "Nuovi metodi di sviluppo" ) }}</p>
                 <p class="mb-4">{{ __( "Un percorso ideato per ogni ambiente di lavoro che ti permette di colmare il gap tecnologico necessario per l'acquisizione delle competenze che il mercato dello sviluppo online richiede." ) }}</p>
-                <p class="p-2 italic">{{ __( "Impara il significato dei nuovi termini abbinati allo sviluppo delle applicazioni web, impara il versioning con semver e git, sfrutta strumenti di gestione delle dipendenze come composer e npm, acquisisci le competenze per lo sviluppo di applicazioni performanti con laravel e le logiche di deploy in un ambiente CD/CI." ) }}</p>
+                <p class="p-2 italic">{{ __( "Impara il significato dei nuovi termini abbinati allo sviluppo delle applicazioni web, impara il versioning con semver e git, sfrutta strumenti di gestione delle dipendenze come composer e npm, acquisisci le competenze per lo sviluppo di applicazioni performanti con laravel e le logiche di deploy in un ambiente CI/CD." ) }}</p>
             </div>
 
             <div class="relative text-center my-16 lg:-mx-4">
