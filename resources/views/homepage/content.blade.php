@@ -4,7 +4,7 @@
             <div class="p-4 text-right bg-agp-yellow">
                 <p class="text-xl lg:text-2xl xl:text-xl leading-tight">
                     <a href="{{ route('website.services') }}">
-                        {{ __( "I Corsi Online" ) }} &#128640;
+                        {{ __( "I Corsi Online e In Sede" ) }} &#128640;
                     </a>
                 </p>
                 <p class="text-3xl lg:text-4xl xl:text-3xl leading-tight font-bold">
