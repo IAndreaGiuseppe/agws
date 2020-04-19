@@ -23,13 +23,13 @@
             </div>
 
             <div class="relative text-center my-16 lg:-mx-4">
-                <figure class="max-w-3xl font-display">
-                    <blockquote class="text-black relative text-2xl mx-auto italic mb-4">
+                <figure class="max-w-3xl mx-auto font-display">
+                    <blockquote class="relative mb-4 font-thin text-xl italic text-black">
                         <p>{{ __( "L'ordine per un programmatore è importante quanto la conoscenza, la semplice scrittura del codice porta lontano dal risultato. Andrea sa insegnare anche questo; oltre a conoscere a fondo gli argomenti, sa insegnare il mestiere." ) }}</p>
-                        <p class="text-xs font-thin">{{ __( "Net-Evolution" ) }}</p>
+                        <p class="font-thin text-xs">{{ __( "Net-Evolution" ) }}</p>
                     </blockquote>
                     <figcaption class="flex items-center justify-center">
-                        <img src="" alt="" class="rounded-full block h-8 w-8 mr-4" />
+                        <img src="" alt="" class="block mr-4 w-8 h-8 rounded-full" />
                         <a href="https://www.net-evolution.com" class="no-underline text-indigo-dark hover:text-indigo uppercase tracking-wide font-bold text-base">{{ __( "Cristiano Cattaneo" ) }}</a>
                     </figcaption>
                 </figure>

@@ -9,7 +9,7 @@
                 </p>
                 <p class="text-3xl lg:text-4xl xl:text-3xl leading-tight font-bold">
                     <span class="font-thin text-xl">{{ __( "Laravel:" ) }}</span>
-                    __( "A journey to reusable packages" ) }}
+                    {{ __( "A journey to reusable packages" ) }}
                 </p>
             </div>
         </div>
